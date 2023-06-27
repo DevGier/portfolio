@@ -2,7 +2,7 @@
   overflow: hidden;
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(to bottom, transparent, $purple-heart-950);
+  //background-image: linear-gradient(to bottom, transparent, $purple-heart-950);
   z-index: -1;
 
   @media (max-width: 768px) {
@@ -13,11 +13,10 @@
     position: absolute;
     inset: 0;
     content: '';
-    object-fit: cover;
     background-size: cover;
-    background-image: url('/images/hero-bg-3.jpg');
+    background-image: url('/images/hero-bg-4.jpg');
     background-position: center;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 
   canvas {
