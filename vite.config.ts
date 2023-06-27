@@ -6,6 +6,6 @@ export default defineConfig({
 	plugins: [sveltekit(), sassGlobImports()],
 	server: {
 		port: process.env.PORT || 3000,
-		host: true
-	},
+		host: true,
+	}
 });
