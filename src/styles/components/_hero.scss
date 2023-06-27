@@ -1,0 +1,134 @@
+.hero {
+    overflow: hidden;
+    height: 80vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, transparent, $purple-heart-950);
+    z-index: -1;
+
+    @media (max-width: 768px) {
+        height: 100vh;
+    }
+
+    &:before {
+        position: absolute;
+        inset: 0;
+        content: "";
+        object-fit: cover;
+        background-size: cover;
+        background-image: url("/images/hero-bg-3.jpg");
+        background-position: center;
+        opacity: 0.4;
+    }
+
+    canvas {
+        width: 60% !important;
+        height: 550px !important;
+        position: absolute;
+        top: 60%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    #mouse-scroll {
+        margin-inline: auto;
+        display: block;
+        width: fit-content;
+    }
+
+    #mouse-scroll span {
+        display: block;
+        width: 12px;
+        height: 12px;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        margin: 0 0 3px 5px;
+    }
+    #mouse-scroll .mouse {
+        height: 36px;
+        width: 22px;
+        border-radius: 15px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        border: 2px solid #ffffff;
+        top: 170px;
+    }
+    #mouse-scroll .down-arrow-1 {
+        margin-top: 6px;
+    }
+    #mouse-scroll .down-arrow-1,
+    #mouse-scroll .down-arrow-2,
+    #mouse-scroll .down-arrow-3 {
+        -webkit-animation: mouse-scroll 1s infinite;
+        -moz-animation: mouse-scroll 1s infinite;
+    }
+    #mouse-croll .down-arrow-1 {
+        -webkit-animation-delay: 0.1s;
+        -moz-animation-delay: 0.1s;
+        -webkit-animation-direction: alternate;
+    }
+    #mouse-scroll .down-arrow-2 {
+        -webkit-animation-delay: 0.2s;
+        -moz-animation-delay: 0.2s;
+        -webkit-animation-direction: alternate;
+    }
+    #mouse-scroll .down-arrow-3 {
+        -webkit-animation-delay: 0.3s;
+        -moz-animation-dekay: 0.3s;
+        -webkit-animation-direction: alternate;
+    }
+    #mouse-scroll .mouse-in {
+        height: 10px;
+        width: 10px;
+        border-radius: 12px;
+        display: block;
+        margin: 5px auto;
+        background: #ffffff;
+        position: relative;
+    }
+    #mouse-scroll .mouse-in {
+        -webkit-animation: animated-mouse 1.2s ease infinite;
+        moz-animation: mouse-animated 1.2s ease infinite;
+    }
+
+    @-webkit-keyframes animated-mouse {
+        0% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            -webkit-transform: translateY(6px);
+            -ms-transform: translateY(6px);
+            transform: translateY(6px);
+        }
+    }
+    @-webkit-keyframes mouse-scroll {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes mouse-scroll {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
