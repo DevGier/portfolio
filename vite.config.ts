@@ -5,6 +5,7 @@ import sassGlobImports from 'vite-plugin-sass-glob-import';
 export default defineConfig({
 	plugins: [sveltekit(), sassGlobImports()],
 	server: {
-		port: process.env.PORT || 3000
+		port: process.env.PORT || 3000,
+		host: true
 	},
 });
