@@ -1,0 +1,10 @@
+.portfolio {
+    .slide {
+        transform: perspective(800px) rotateY(25deg) scale(0.8) rotateX(10deg);
+        transition: 0.2s ease all;
+
+        &:hover {
+            transform: perspective(800px) rotateY(0deg) rotateX(0deg) scale(1);
+        }
+    }
+}

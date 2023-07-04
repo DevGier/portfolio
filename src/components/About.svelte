@@ -13,6 +13,15 @@
   </div>
 
   <div class="cards">
-    <div class="card">Test</div>
+    <div class="card"><img src="images/HTML-logo.svg" alt="HTML" /></div>
+    <div class="card"><img src="images/SASS-logo.svg" alt="SASS" /></div>
+    <div class="card"><img src="images/TypeScript-logo.svg" alt="SASS" /></div>
+    <div class="card"><img src="images/React-logo.svg" alt="React" /></div>
+    <div class="card"><img src="images/Vue-logo.svg" alt="Vue" /></div>
+    <div class="card"><img src="images/Svelte-logo.svg" alt="Svelte" /></div>
+    <div class="card"><img src="images/PHP-logo.svg" alt="PHP" /></div>
+    <div class="card">
+      <img src="images/Tailwind-logo.svg" alt="Tailwind" />
+    </div>
   </div>
 </section>
