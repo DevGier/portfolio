@@ -1,5 +1,7 @@
 <script lang="ts">
-	import Hero from './../components/Hero.svelte';
+  import About from '../components/About.svelte'
+  import Hero from './../components/Hero.svelte'
 </script>
 
-<Hero/>
+<Hero />
+<About />
