@@ -1,5 +1,5 @@
 <script>
-  import { Lazy } from 'svelte-lazy'
+  import Lazy from 'svelte-lazy'
 </script>
 
 <section class="container mx-auto my-[80px] text-center">
