@@ -1,3 +1,7 @@
+<script>
+  import { Lazy } from 'svelte-lazy'
+</script>
+
 <section class="container mx-auto my-[80px] text-center">
   <div class="w-[700px] mx-auto">
     <h2 class="text-white text-4xl font-semibold">
@@ -13,15 +17,29 @@
   </div>
 
   <div class="cards">
-    <div class="card"><img src="images/HTML-logo.svg" alt="HTML" /></div>
-    <div class="card"><img src="images/SASS-logo.svg" alt="SASS" /></div>
-    <div class="card"><img src="images/TypeScript-logo.svg" alt="SASS" /></div>
-    <div class="card"><img src="images/React-logo.svg" alt="React" /></div>
-    <div class="card"><img src="images/Vue-logo.svg" alt="Vue" /></div>
-    <div class="card"><img src="images/Svelte-logo.svg" alt="Svelte" /></div>
-    <div class="card"><img src="images/PHP-logo.svg" alt="PHP" /></div>
     <div class="card">
-      <img src="images/Tailwind-logo.svg" alt="Tailwind" />
+      <Lazy><img src="images/HTML-logo.svg" alt="HTML" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/SASS-logo.svg" alt="SASS" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/TypeScript-logo.svg" alt="SASS" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/React-logo.svg" alt="React" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/Vue-logo.svg" alt="Vue" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/Svelte-logo.svg" alt="Svelte" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/PHP-logo.svg" alt="PHP" /></Lazy>
+    </div>
+    <div class="card">
+      <Lazy><img src="images/Tailwind-logo.svg" alt="Tailwind" /></Lazy>
     </div>
   </div>
 </section>
