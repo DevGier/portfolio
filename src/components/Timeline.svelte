@@ -10,7 +10,7 @@
   } from 'svelte-vertical-timeline'
 </script>
 
-<div class="container mx-auto text-center my-[80px]">
+<section class="container mx-auto text-center my-[80px]" id="experience">
   <h2 class="text-5xl font-semibold mb-[80px] text-white">Work Experience</h2>
 
   <Timeline position="alternate">
@@ -109,7 +109,7 @@
       </TimelineContent>
     </TimelineItem>
   </Timeline>
-</div>
+</section>
 
 <style lang="scss">
   h3 {

@@ -7,19 +7,26 @@
     </div>
 
     <div class="flex items-center gap-12 ml-auto">
-      <a href="#" class="font-semibold text-indigo-500 hover:text-indigo-300"
-        >Home</a
+      <a
+        href="#home"
+        class="font-semibold text-indigo-500 hover:text-indigo-300">Home</a
       >
-      <a href="#" class="text-white font-semibold hover:text-indigo-300"
+      <a href="#about" class="text-white font-semibold hover:text-indigo-300"
         >About</a
       >
-      <a href="#" class="text-white font-semibold hover:text-indigo-300">Work</a
+      <a
+        href="#experience"
+        class="text-white font-semibold hover:text-indigo-300">Experience</a
       >
-      <a href="#" class="text-white font-semibold hover:text-indigo-300"
+      <a href="#work" class="text-white font-semibold hover:text-indigo-300"
+        >Work</a
+      >
+      <a href="#contact" class="text-white font-semibold hover:text-indigo-300"
         >Contact</a
       >
       <a
-        href="#"
+        href="/cv.pdf"
+        download
         class="bg-indigo-600 text-white py-4 px-5 rounded-[8px] hover:bg-indigo-700 transition uppercase font-semibold"
         >Download CV</a
       >

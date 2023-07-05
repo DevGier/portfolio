@@ -8,7 +8,7 @@
   import '@splidejs/svelte-splide/css/core'
 </script>
 
-<div class="container mx-auto mt-[80px] mb-[40px]">
+<div class="container mx-auto mt-[80px] mb-[40px]" id="work">
   <h2 class="text-5xl text-white font-semibold text-center">
     Projects <span class="text-indigo-500">I've worked on</span>
   </h2>

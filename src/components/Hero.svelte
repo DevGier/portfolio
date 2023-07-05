@@ -9,7 +9,7 @@
   })
 </script>
 
-<section class="hero">
+<section class="hero" id="home">
   <div class="flex w-full z-10 relative h-full text-white">
     <div class="w-full container mx-auto my-auto relative flex gap-8">
       <div
