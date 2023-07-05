@@ -33,7 +33,7 @@
     pagination: false,
   }}
 >
-  <SplideSlide>
+  <!-- <SplideSlide>
     <div class="slide">
       <img src="images/byner-plugin.png" alt="Byner plugin" />
       <p>
@@ -53,7 +53,7 @@
         with Nevobo.
       </p>
     </div>
-  </SplideSlide>
+  </SplideSlide> -->
   <SplideSlide>
     <div class="slide">
       <img src="images/aryza-website.png" alt="Aryza website" />
