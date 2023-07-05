@@ -64,8 +64,8 @@
       </TimelineSeparator>
       <TimelineContent>
         <div class="content">
-          <h3>MD Webbureau</h3>
-          <p>WordPress Developer</p>
+          <h3>WordPress Developer</h3>
+          <p>MD Webbureau</p>
 
           <ul>
             <li>
