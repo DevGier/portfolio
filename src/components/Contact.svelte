@@ -5,7 +5,7 @@
     </div>
   </div>
 
-  <div class="flex flex-wrap gap-[16px] md:gap-[32px] mt-[40px]">
+  <div class="flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[32px] mt-[40px]">
     <div class="w-full md:w-[33%]">
       <div class="card">
         <h4 class="text-white text-2xl text-center font-semibold">Phone</h4>
