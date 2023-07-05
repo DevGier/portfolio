@@ -3,9 +3,9 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    const canvas = document.getElementById('herocanvas') as HTMLCanvasElement
-    const app = new Application(canvas)
-    app.load('https://prod.spline.design/Fd9aaCsHqFe-U2Du/scene.splinecode')
+    //const canvas = document.getElementById('herocanvas') as HTMLCanvasElement
+    //const app = new Application(canvas)
+    //app.load('https://prod.spline.design/Fd9aaCsHqFe-U2Du/scene.splinecode')
   })
 </script>
 
@@ -29,7 +29,7 @@
           I'm a Frontend Developer
         </p>
 
-        <canvas id="herocanvas" class="relative z-0 hidden md:block" />
+        <!-- <canvas id="herocanvas" class="relative z-0 hidden md:block" /> -->
       </div>
     </div>
   </div>
