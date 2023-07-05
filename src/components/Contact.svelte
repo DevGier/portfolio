@@ -6,7 +6,7 @@
   </div>
 
   <div
-    class="flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[32px] mt-[40px] justify-center"
+    class="flex flex-wrap md:flex-nowrap gap-[16px] md:gap-[32px] mt-[40px] text-center"
   >
     <div class="w-full md:w-[31%]">
       <div class="card">
