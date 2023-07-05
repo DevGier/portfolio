@@ -1,3 +1,12 @@
-@import './abstracts/*';
-@import './base/*';
-@import './components/*';
+// Variables
+@import "./abstracts/variables";
+
+// Base
+@import "./base/body";
+@import "./base/typography";
+
+// Components
+@import "./components/about";
+@import "./components/hero";
+@import "./components/portfolio";
+@import "./components/timeline";
