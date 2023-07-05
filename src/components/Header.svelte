@@ -2,7 +2,7 @@
   <div class="container mx-auto flex items-center py-8">
     <div class="logo">
       <h2 class="text-white text-2xl font-semibold">
-        TIM DE GIER <span class="inline-block px-2">|</span> PORTFOLIO
+        <img src="images/logo-light.svg" alt="Logo" />
       </h2>
     </div>
 
