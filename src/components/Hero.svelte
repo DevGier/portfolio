@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Application } from '@splinetool/runtime'
   import { onMount } from 'svelte'
+  import { scrollRef, scrollTo } from 'svelte-scrolling'
 
   onMount(() => {
     const canvas = document.getElementById('herocanvas') as HTMLCanvasElement
@@ -9,11 +10,28 @@
   })
 </script>
 
-<section class="hero" id="home">
+<section class="hero" use:scrollRef={'home'}>
+  <a
+    href="#about"
+    class="absolute bottom-16 z-50 w-full text-center"
+    use:scrollTo={'about'}
+  >
+    <div id="mouse-scroll">
+      <div class="mouse">
+        <div class="mouse-in" />
+      </div>
+      <div>
+        <span class="down-arrow-1" />
+        <span class="down-arrow-2" />
+        <span class="down-arrow-3" />
+      </div>
+    </div>
+  </a>
+
   <div class="flex w-full z-10 relative h-full text-white">
     <div class="w-full container mx-auto my-auto relative flex gap-8">
       <div
-        class="flex flex-col justify-center items-center mt-[-56px] relative"
+        class="flex-col justify-center items-center mt-[-56px] relative hidden md:flex"
       >
         <div class="w-5 h-5 relative z-10 rounded-full bg-indigo-500" />
         <div
@@ -32,20 +50,5 @@
         <canvas id="herocanvas" class="relative z-0 hidden md:block" />
       </div>
     </div>
-  </div>
-
-  <div class="absolute bottom-16 z-20 w-full text-center">
-    <a href="#about">
-      <div id="mouse-scroll">
-        <div class="mouse">
-          <div class="mouse-in" />
-        </div>
-        <div>
-          <span class="down-arrow-1" />
-          <span class="down-arrow-2" />
-          <span class="down-arrow-3" />
-        </div>
-      </div>
-    </a>
   </div>
 </section>

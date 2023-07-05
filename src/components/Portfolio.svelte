@@ -1,6 +1,7 @@
 <script>
   import Lazy from 'svelte-lazy'
   import { Splide, SplideSlide } from '@splidejs/svelte-splide'
+  import { scrollRef } from 'svelte-scrolling'
 
   import '@splidejs/svelte-splide/css'
   import '@splidejs/svelte-splide/css/skyblue'
@@ -8,8 +9,8 @@
   import '@splidejs/svelte-splide/css/core'
 </script>
 
-<div class="container mx-auto mt-[80px] mb-[40px]" id="work">
-  <h2 class="text-5xl text-white font-semibold text-center">
+<div class="container mx-auto mt-[80px] mb-[40px]" use:scrollRef={'work'}>
+  <h2 class="text-4xl text-white font-semibold text-center">
     Projects <span class="text-indigo-500">I've worked on</span>
   </h2>
 
@@ -19,7 +20,7 @@
 </div>
 
 <Splide
-  aria-label="My Favorite Images"
+  aria-label="My projects"
   class="portfolio"
   options={{
     rewind: true,

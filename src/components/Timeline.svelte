@@ -8,10 +8,15 @@
     TimelineContent,
     TimelineOppositeContent,
   } from 'svelte-vertical-timeline'
+
+  import { scrollRef } from 'svelte-scrolling'
 </script>
 
-<section class="container mx-auto text-center my-[80px]" id="experience">
-  <h2 class="text-5xl font-semibold mb-[80px] text-white">Work Experience</h2>
+<section
+  class="container mx-auto text-center my-[80px]"
+  use:scrollRef={'experience'}
+>
+  <h2 class="text-4xl font-semibold mb-[80px] text-white">Work Experience</h2>
 
   <Timeline position="alternate">
     <TimelineItem>

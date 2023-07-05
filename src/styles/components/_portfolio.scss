@@ -1,10 +1,17 @@
 .portfolio {
-    .slide {
-        transform: perspective(800px) rotateY(25deg) scale(0.8) rotateX(10deg);
-        transition: 0.2s ease all;
+  overflow: visible !important;
 
-        &:hover {
-            transform: perspective(800px) rotateY(0deg) rotateX(0deg) scale(1);
-        }
+  .splide__track {
+    overflow: visible !important;
+  }
+
+  .slide {
+    transform: perspective(800px) rotateY(25deg) scale(0.8) rotateX(10deg);
+    transition: 0.2s ease all;
+    box-shadow: 0px 0px 1000px 200px rgba(255, 0, 191, 0.05);
+
+    &:hover {
+      transform: perspective(800px) rotateY(0deg) rotateX(0deg) scale(1);
     }
+  }
 }

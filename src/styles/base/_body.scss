@@ -1,4 +1,10 @@
 body {
-    background-color: $color-body;
-    font-family: 'Poppins';
+  background-color: $color-body;
+  font-family: 'Poppins';
+}
+
+.container {
+  @media (max-width: 768px) {
+    padding-inline: 32px;
+  }
 }
