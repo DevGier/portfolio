@@ -1,4 +1,5 @@
 <script>
+  import Lazy from 'svelte-lazy'
   import { Splide, SplideSlide } from '@splidejs/svelte-splide'
 
   import '@splidejs/svelte-splide/css'
@@ -42,10 +43,12 @@
         Plugin for one of the most popular CRM systems for jobs in the Netherlands.
       </p>
     </div>
-  </SplideSlide>
+  </SplideSlide> -->
   <SplideSlide>
     <div class="slide">
-      <img src="images/dosvolleybal-website.png" alt="DOS Volleybal" />
+      <Lazy
+        ><img src="images/dosvolleybal-website.png" alt="DOS Volleybal" /></Lazy
+      >
       <p>
         <b>DOS Volleybal</b><br />
         <i class="text-sky-500">At my company H1 Media.</i><br />
@@ -53,10 +56,10 @@
         with Nevobo.
       </p>
     </div>
-  </SplideSlide> -->
+  </SplideSlide>
   <SplideSlide>
     <div class="slide">
-      <img src="images/aryza-website.png" alt="Aryza website" />
+      <Lazy><img src="images/aryza-website.png" alt="Aryza website" /></Lazy>
       <p>
         <b>Aryza</b><br />
         <i class="text-orange-500">During my career at Social Brothers.</i><br
@@ -67,7 +70,9 @@
   </SplideSlide>
   <SplideSlide>
     <div class="slide">
-      <img src="images/abnetten-website.png" alt="ABnetten website" />
+      <Lazy
+        ><img src="images/abnetten-website.png" alt="ABnetten website" /></Lazy
+      >
       <p>
         <b>ABnetten</b><br />
         <i class="text-sky-500">During my career at MD Webbureau.</i><br />
