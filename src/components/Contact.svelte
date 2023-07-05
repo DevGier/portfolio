@@ -5,8 +5,8 @@
     </div>
   </div>
 
-  <div class="flex flex-wrap gap-[16px] md:gap-[32px] mt-[40px] justify-center">
-    <div class="w-full flex-1">
+  <div class="columns-1 md:columns-3 gap-[16px] md:gap-[32px] mt-[40px]">
+    <div class="w-full">
       <div class="card">
         <h4 class="text-white text-2xl text-center font-semibold">Phone</h4>
         <a
@@ -16,7 +16,7 @@
         >
       </div>
     </div>
-    <div class="w-full md:w-[33%]">
+    <div class="w-full">
       <div class="card">
         <h4 class="text-white text-2xl text-center font-semibold">E-mail</h4>
         <a
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="w-full md:w-[31%]">
+    <div class="w-full">
       <div class="card">
         <h4 class="text-white text-2xl text-center font-semibold">LinkedIn</h4>
         <a
