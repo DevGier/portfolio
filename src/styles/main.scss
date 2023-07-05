@@ -1,3 +1,9 @@
-@import "./abstracts/*";
-@import "./base/*";
-@import "./components/*";
+@import "./abstracts/_variables.scss";
+
+@import "./base/_body.scss";
+@import "./base/_typography.scss";
+
+@import "./components/_about.scss";
+@import "./components/_hero.scss";
+@import "./components/_portfolio.scss";
+@import "./components/_timeline.scss";
