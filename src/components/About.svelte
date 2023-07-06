@@ -1,5 +1,4 @@
 <script>
-  import Lazy from 'svelte-lazy'
   import { scrollRef } from 'svelte-scrolling'
 </script>
 
@@ -22,28 +21,28 @@
 
   <div class="cards">
     <div class="card">
-      <Lazy><img src="images/HTML-logo.svg" alt="HTML" /></Lazy>
+      <img src="images/HTML-logo.svg" alt="HTML" />
     </div>
     <div class="card">
-      <Lazy><img src="images/SASS-logo.svg" alt="SASS" /></Lazy>
+      <img src="images/SASS-logo.svg" alt="SASS" />
     </div>
     <div class="card">
-      <Lazy><img src="images/TypeScript-logo.svg" alt="SASS" /></Lazy>
+      <img src="images/TypeScript-logo.svg" alt="SASS" />
     </div>
     <div class="card">
-      <Lazy><img src="images/React-logo.svg" alt="React" /></Lazy>
+      <img src="images/React-logo.svg" alt="React" />
     </div>
     <div class="card">
-      <Lazy><img src="images/Vue-logo.svg" alt="Vue" /></Lazy>
+      <img src="images/Vue-logo.svg" alt="Vue" />
     </div>
     <div class="card">
-      <Lazy><img src="images/Svelte-logo.svg" alt="Svelte" /></Lazy>
+      <img src="images/Svelte-logo.svg" alt="Svelte" />
     </div>
     <div class="card">
-      <Lazy><img src="images/PHP-logo.svg" alt="PHP" /></Lazy>
+      <img src="images/PHP-logo.svg" alt="PHP" />
     </div>
     <div class="card">
-      <Lazy><img src="images/Tailwind-logo.svg" alt="Tailwind" /></Lazy>
+      <img src="images/Tailwind-logo.svg" alt="Tailwind" />
     </div>
   </div>
 </section>
