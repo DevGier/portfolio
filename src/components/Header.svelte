@@ -10,36 +10,42 @@
       </h2>
     </div>
 
-    <div class="items-center gap-12 ml-auto hidden md:flex">
+    <div class="items-center gap-12 ml-auto flex">
       <a
         use:scrollTo={'home'}
         href="#home"
-        class="font-semibold text-indigo-500 hover:text-indigo-300">Home</a
+        class="hidden md:inline-block font-semibold text-indigo-500 hover:text-indigo-300"
+        >Home</a
       >
       <a
         use:scrollTo={'about'}
         href="#about"
-        class="text-white font-semibold hover:text-indigo-300">About</a
+        class="hidden md:inline-block text-white font-semibold hover:text-indigo-300"
+        >About</a
       >
       <a
         use:scrollTo={'experience'}
         href="#experience"
-        class="text-white font-semibold hover:text-indigo-300">Experience</a
+        class="hidden md:inline-block text-white font-semibold hover:text-indigo-300"
+        >Experience</a
       >
       <a
         use:scrollTo={'work'}
         href="#work"
-        class="text-white font-semibold hover:text-indigo-300">Work</a
+        class="hidden md:inline-block text-white font-semibold hover:text-indigo-300"
+        >Work</a
       >
       <a
         use:scrollTo={'hobbies'}
         href="#hobbies"
-        class="text-white font-semibold hover:text-indigo-300">Hobbies</a
+        class="hidden md:inline-block text-white font-semibold hover:text-indigo-300"
+        >Hobbies</a
       >
       <a
         use:scrollTo={'contact'}
         href="#contact"
-        class="text-white font-semibold hover:text-indigo-300">Contact</a
+        class="hidden md:inline-block text-white font-semibold hover:text-indigo-300"
+        >Contact</a
       >
       <a
         href="/cv.pdf"
