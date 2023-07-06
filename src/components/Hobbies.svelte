@@ -13,11 +13,11 @@
 <section class="hobbies my-[80px] md:my-[240px]" use:scrollRef={'hobbies'}>
   <div class="flex w-full z-10 relative h-full text-white">
     <div class="w-full container mx-auto my-auto relative flex gap-8">
-      <div class="sm:w-full md:w-[40%] ml-auto">
-        <h2 class="text-4xl relative z-10 font-bold">
+      <div class="sm:w-full md:w-[40%] mx-auto">
+        <h2 class="text-4xl relative z-10 font-bold text-center">
           What I love to do in my <span class="text-indigo-500">free time</span>
         </h2>
-        <p class="text-white relative z-10 pt-[24px]">
+        <p class="text-white relative z-10 pt-[24px] text-center">
           I love to watch Formula 1 and to play racing games on my simulator. I
           also love working on projects of my own and to meet up with friends.
           Not to forget, I love traveling to places I have and/or have not been
