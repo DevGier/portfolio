@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { Application } from '@splinetool/runtime'
-  import { onMount } from 'svelte'
+  // import { Application } from '@splinetool/runtime'
+  // import { onMount } from 'svelte'
   import { scrollRef, scrollTo } from 'svelte-scrolling'
 
-  onMount(() => {
-    const canvas = document.getElementById('herocanvas') as HTMLCanvasElement
-    const app = new Application(canvas)
-    app.load('https://prod.spline.design/Fd9aaCsHqFe-U2Du/scene.splinecode')
-  })
+  // onMount(() => {
+  //   const canvas = document.getElementById('herocanvas') as HTMLCanvasElement
+  //   const app = new Application(canvas)
+  //   app.load('https://prod.spline.design/Fd9aaCsHqFe-U2Du/scene.splinecode')
+  // })
 </script>
 
 <section class="hero" use:scrollRef={'home'}>
@@ -47,7 +47,7 @@
           I'm a Frontend Developer
         </p>
 
-        <canvas id="herocanvas" class="relative z-0 hidden md:block" />
+        <!-- <canvas id="herocanvas" class="relative z-0 hidden md:block" /> -->
       </div>
     </div>
   </div>

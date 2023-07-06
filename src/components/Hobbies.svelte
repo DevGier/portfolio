@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { Application } from '@splinetool/runtime'
-  import { onMount } from 'svelte'
+  // import { Application } from '@splinetool/runtime'
+  // import { onMount } from 'svelte'
   import { scrollRef, scrollTo } from 'svelte-scrolling'
 
-  onMount(() => {
-    const canvas = document.getElementById('hobbiescanvas') as HTMLCanvasElement
-    const app = new Application(canvas)
-    app.load('https://prod.spline.design/wrlJLxE3bL30HinT/scene.splinecode')
-  })
+  // onMount(() => {
+  //   const canvas = document.getElementById('hobbiescanvas') as HTMLCanvasElement
+  //   const app = new Application(canvas)
+  //   app.load('https://prod.spline.design/wrlJLxE3bL30HinT/scene.splinecode')
+  // })
 </script>
 
 <section class="hobbies my-[80px] md:my-[240px]" use:scrollRef={'hobbies'}>
@@ -25,7 +25,7 @@
         </p>
       </div>
 
-      <canvas id="hobbiescanvas" class="relative z-0 hidden md:block" />
+      <!-- <canvas id="hobbiescanvas" class="relative z-0 hidden md:block" /> -->
     </div>
   </div>
 </section>
