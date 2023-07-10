@@ -49,7 +49,6 @@
 
 <div class="mobile-menu">
 	<Menu />
-	<a href="/cv.pdf" download class="btn btn--primary">Download CV </a>
 </div>
 
 <style lang="scss">

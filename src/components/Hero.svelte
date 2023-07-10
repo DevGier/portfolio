@@ -6,6 +6,9 @@
 					<h1>I'm <span>&lt;h1&gt;</span>Tim<span>&lt;/h1&gt;</span></h1>
 					<h3>Frontend Developer with a love for programming.</h3>
 					<a href="#about" class="btn btn--primary">Let's have a chat!</a>
+					<a href="/cv.pdf" download class="btn btn--primary" style="margin-left: 24px;"
+						>Download CV
+					</a>
 				</div>
 
 				<div class="col-md-6 hero__image-column">
