@@ -8,7 +8,7 @@
 	import '@splidejs/svelte-splide/css/core';
 </script>
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

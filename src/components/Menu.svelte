@@ -24,6 +24,8 @@
 		display: flex;
 		gap: 0;
 		align-items: center;
+		position: relative;
+		z-index: 9999999;
 
 		.text {
 			display: none;
@@ -59,10 +61,9 @@
 				content: '';
 				position: absolute;
 				inset: 0;
-				opacity: 0.3;
 				border-radius: 50px;
 				z-index: -1;
-				background-color: $purple;
+				background-color: rgb(42, 42, 101);
 			}
 		}
 

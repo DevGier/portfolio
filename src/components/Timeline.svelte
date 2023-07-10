@@ -10,7 +10,7 @@
 	} from 'svelte-vertical-timeline';
 </script>
 
-<section class="timeline">
+<section class="timeline" id="work">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

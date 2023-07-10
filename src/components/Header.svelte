@@ -60,7 +60,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index: 999;
+		z-index: 99999999999;
 		right: 0;
 
 		&__wrapper {
@@ -112,6 +112,7 @@
 		position: fixed;
 		bottom: -160px;
 		left: 50%;
+		z-index: 99999999;
 		transform: translateX(-50%);
 		box-sizing: border-box;
 		padding: 0;

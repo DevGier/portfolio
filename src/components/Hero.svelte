@@ -1,4 +1,4 @@
-<section>
+<section id="home">
 	<div class="hero">
 		<div class="container">
 			<div class="row">
