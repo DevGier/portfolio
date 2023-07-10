@@ -34,6 +34,7 @@
 	"dependencies": {
 		"@splidejs/svelte-splide": "^0.2.9",
 		"bootstrap": "^5.3.0",
+		"remixicon": "^3.4.0",
 		"sass": "^1.63.6",
 		"svelte-lazy": "^1.2.1",
 		"svelte-vertical-timeline": "^1.0.0",
