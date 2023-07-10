@@ -4,6 +4,8 @@
 	import About from '../components/About.svelte';
 	import Timeline from '../components/Timeline.svelte';
 	import Portfolio from '../components/Portfolio.svelte';
+	import Contact from '../components/Contact.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <Header />
@@ -11,3 +13,5 @@
 <About />
 <Timeline />
 <Portfolio />
+<Contact />
+<Footer />
