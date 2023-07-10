@@ -22,7 +22,9 @@
 							<p>Okt 2022 - Jul 2023</p>
 						</TimelineOppositeContent>
 						<TimelineSeparator>
-							<TimelineDot style={'width: 80px; height: 80px; background-color: #fff0;'}>
+							<TimelineDot
+								style={'width: 80px; height: 80px; background-color: #fff0;display: inline-block;'}
+							>
 								<img
 									src="images/sb-logo.png"
 									style={'border-radius: 8px'}
@@ -55,7 +57,9 @@
 							<p class="text-left">Okt 2019 - Jul 2022</p>
 						</TimelineOppositeContent>
 						<TimelineSeparator>
-							<TimelineDot style={'width: 80px; height: 80px; background-color: #fff0;'}>
+							<TimelineDot
+								style={'width: 80px; height: 80px; background-color: #fff0;display: inline-block;'}
+							>
 								<img src="images/md-logo.png" alt="MD Webbureau Logo" />
 							</TimelineDot>
 							<TimelineConnector />
@@ -79,7 +83,9 @@
 							<p>Feb 2021 - Jun 2021</p>
 						</TimelineOppositeContent>
 						<TimelineSeparator>
-							<TimelineDot style={'width: 80px; height: 80px; background-color: #fff0;'}>
+							<TimelineDot
+								style={'width: 80px; height: 80px; background-color: #fff0;display: inline-block;'}
+							>
 								<img src="images/gi-logo.png" alt="GetInteractive Logo" />
 							</TimelineDot>
 							<TimelineConnector />
