@@ -154,4 +154,28 @@
 		text-align: left;
 		margin-bottom: 40px;
 	}
+
+	@media (max-width: 768px) {
+		.timeline-separator {
+			display: none !important;
+		}
+
+		.timeline-item {
+			flex-direction: column !important;
+		}
+
+		.timeline-opposite-content {
+			p {
+				text-align: left !important;
+			}
+		}
+
+		.portfolio {
+			padding-inline: 0px !important;
+		}
+	}
+
+	.timeline-dot {
+		border: unset !important;
+	}
 </style>
