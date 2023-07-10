@@ -120,5 +120,9 @@
 
 		justify-content: center;
 		transition: 0.2s ease;
+
+		.btn {
+			width: 100%;
+		}
 	}
 </style>
