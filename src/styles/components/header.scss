@@ -1,0 +1,6 @@
+.header {
+    &.sticky {
+        position: fixed !important;
+        background-color: $black;
+    }
+}

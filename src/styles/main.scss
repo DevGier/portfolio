@@ -1,10 +1,22 @@
-@import './abstracts/_variables.scss';
+// Bootstrap variables
+@import "./abstracts/bootstrap";
 
-@import './base/_body.scss';
-@import './base/_typography.scss';
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
 
-@import './components/_about.scss';
-@import './components/_hero.scss';
-@import './components/_hobbies.scss';
-@import './components/_portfolio.scss';
-@import './components/_timeline.scss';
+// Abstracts
+@import "./abstracts/*";
+
+// Base
+@import "./base/*";
+
+// Components
+@import "./components/*";
+
+* {
+    box-sizing: border-box;
+}

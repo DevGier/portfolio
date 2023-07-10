@@ -1,11 +1,4 @@
 body {
-  background-color: $color-body;
-  font-family: "Poppins";
-  overflow-x: hidden;
-}
-
-.container {
-  @media (max-width: 768px) {
-    padding-inline: 32px;
-  }
+    position: relative;
+    scroll-behavior: smooth;
 }
